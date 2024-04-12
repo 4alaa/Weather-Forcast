@@ -1,0 +1,528 @@
+body
+{
+    padding: 0;
+    margin: 0;
+}
+:root
+{
+    --main-color:rgb(27,172,145);
+    
+    
+}
+@font-face {
+    font-family:Lobster ;
+    src: url(../webfonts/Lobster-Regular.ttf);
+}
+/* @font-face {
+    font-family: ;
+    src: url();
+} */
+.home
+{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../imgs/3366845.jpg);
+    background-size: contain;
+    background-position: top center;
+    height: 100vh;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+.dayOne
+{
+    border-radius: 15px;
+}
+.bodyRight img
+{
+    width: 100px;
+}
+.dayOne
+{
+    height: 330px !important;
+}
+.next2
+{
+    margin-top: 25px;
+}
+/* h4
+{
+    text-indent: 10px;
+} */
+.bodyLeft h5
+{
+    font-size: 18px;
+}
+.bodyLeft h3
+{
+    font-size: 24px;
+}
+
+
+.arrow-up
+{
+    padding: 15px;
+    background-color: var(--main-color);
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    position: fixed;
+    bottom: 2%;
+    right: 1.2%;
+    cursor: pointer;
+    transition:background-color 0 .8s ;
+    display: none ;
+    /* z-index: 9999999999999; */
+
+}
+.arrow-up i
+{
+    transition: color 0.8s ;
+
+}
+.arrow-up:hover i
+{
+    color: white;
+}
+.arrow-up:hover
+{
+    background-color: tomato;
+
+}
+.about
+{
+    background-position: center;
+    background-size: cover;
+}
+
+/* navbar */
+nav
+{
+    font-family: Lobster;
+
+}
+.nav-link
+{
+    font-size: 20px;
+}
+.navbar-brand img
+{
+    width: 50px;
+    margin-right: 8px;
+}
+.icons
+{
+    font-size: 18px;
+}
+.icons i
+{
+    transition: all 0.8s;
+    cursor: pointer;
+}
+.icons i:nth-child(1):hover
+{
+    color: blue;
+}
+.icons i:nth-child(2):hover
+{
+    color: rgba(58, 192, 215, 0.4);
+}
+.icons i:nth-child(3):hover
+{
+    color: tomato
+}
+.icons i:nth-child(4):hover
+{
+    color: red
+}
+
+
+.rowData
+{
+    margin-top: 25px;
+}
+
+
+
+
+/* start of footer */
+footer
+{
+    background-color: rgb(12,24,23);
+    color: white;
+}
+footer .col-md-6:nth-child(1) h2
+{
+    font-size: 27px;
+    margin: 0 0 20px 0;
+    padding: 2px 0 2px 0;
+    line-height: 1;
+    font-weight: 900;
+}
+footer .col-md-6:nth-child(1) p:nth-child(2) ,footer .col-md-6:nth-child(4) p
+{
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+footer .col-md-6:nth-child(2) h2 ,footer .col-md-6:nth-child(3) h2,footer .col-md-6:nth-child(4) h2
+{
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    position: relative;
+    padding-bottom: 12px
+}
+footer .col-md-6:nth-child(2) p ,footer .col-md-6:nth-child(3) p
+{
+    color: #fff;
+    transition: color 0.3s;
+    line-height: 1;
+    cursor: pointer;
+}
+footer .col-md-6:nth-child(2) p:hover ,footer .col-md-6:nth-child(3) p:hover
+{
+    color: var(--main-color);
+    
+}
+footer .col-md-6:nth-child(2) i,footer .col-md-6:nth-child(3) i
+{
+    color: var(--main-color);
+}
+.End
+{
+    background-color: rgb(0,0,0);
+    color: white;
+}
+.End p
+{
+    font-size: 14px;
+}
+.End p:last-child
+{
+    margin-top: -10px;
+}
+.End span
+{
+    color: var(--main-color);
+    font-size: 16px;
+}
+footer button
+{
+    background-color: var(--main-color);
+    border: none !important;
+    color: white;
+    padding: 10px 15px;
+    transition: background-color 0.8s;
+}
+footer input:focus
+{ 
+    box-shadow: none;
+}
+footer button:hover
+{
+    background-color: red;
+}
+.footer-icons .icon-item
+{
+    background-color: rgb(28,55,51);
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 18px;
+    transition: background-color 0.8s;
+    cursor: pointer;
+}
+.footer-icons .icon-item:hover
+{
+    background-color: var(--main-color);
+}
+/* end of footer */
+
+
+.country
+{
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    
+}
+.country img
+{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+
+
+}
+.cb
+{
+    font-family: Lobster;
+    text-align: center;
+    font-size: 40px;
+}
+
+
+
+
+
+
+.Sunny
+{
+   background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../gifs/sunny.webp);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   color: white;
+}
+
+
+
+
+.ForAll
+{
+   background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../gifs/dontknow.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   color: white;
+
+}
+
+
+
+
+.Partly-cloudy
+ {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../gifs/Partly\ cloudy.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+       color: white;
+
+    
+ }
+ .Clear
+ {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../gifs/clear.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+       color: white;
+
+ }
+
+ .Cloudy
+ {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../gifs/moon-sky.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+       color: white;
+
+ }
+
+ .Overcast
+ {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../gifs/overcast.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+       color: white;
+
+ }
+
+
+ .mist
+ {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../gifs/mist.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+       color: white;
+
+    
+ }
+ .PatchyRainNearby
+ {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../gifs/Patchy\ rain\ nearby.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+       color: white;
+
+ }
+
+ .ModerateRain
+ {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../gifs/Moderate\ rain.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+       color: white;
+
+ }
+ .FreezingFog
+ {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../gifs/Freezing\ fog.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+       color: white;
+
+ }
+ .HeavyRain
+ {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../gifs/Heavy\ rain.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+       color: white;
+
+ }
+
+ .LightSnow
+ {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../gifs/Light\ snow.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+       color: white;
+
+ }
+ .HeavySnow
+ {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../gifs/Heavy\ snow.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+       color: white;
+
+ }
+
+ .fog
+ {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../gifs/Fog.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+       color: white;
+
+ }
+ .LightRainShower
+ {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../gifs/Light\ rain\ shower.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+       color: white;
+
+ }
+ 
+ .PatchyFreezingDrizzleNearby
+ {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../gifs/Patchy\ freezing\ drizzle\ nearby.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+       color: white;
+
+ }
+
+ .ModerateOrHeavySnowShower
+ {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../gifs/Moderate\ or\ heavy\ snow\ shower.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+       color: white;
+
+ }
+
+ .LightRain
+ {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../gifs/Light\ rain.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+       color: white;
+
+ }
+ .PatchySnowNearby
+ {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../gifs/Patchy\ snow\ nearby.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+       color: white;
+
+ }
+
+ .PatchySleetNearby
+ {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../gifs/Patchy\ sleet\ nearby.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+       color: white;
+
+ }
+
+ .ThunderyOutbreaksInNearby
+ {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../gifs/Thundery\ outbreaks\ in\ nearby.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+       color: white;
+
+ }
+ .BlowingSnow
+ {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../gifs/Blowing\ snow.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+       color: white;
+
+ }
+
+ .PatchyRrainPossible
+ {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../gifs/Patchy\ rain\ possible.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+       color: white;
+
+ }
+
+
+ 
+ 
+  .Patchymoderatesnow
+ {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../gifs/Patchymoderatesnow.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+       color: white;
+
+ }
+
+  
+ .Moderateorheavysnowshowers
+ {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../gifs/Moderateorheavysnowshowers.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+       color: white;
+
+ }
+
+
+
+
+ 
